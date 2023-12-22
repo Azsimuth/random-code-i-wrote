@@ -1,21 +1,17 @@
+
+# actual code making things happen
 import time
-
 textdelay = 0.005
-
-def write(message: str):
-	print(message, end="", flush=True)
-
 def type(message: str):
 	global textdelay
 	i = 0
 	while i < len(message):
 		time.sleep(textdelay)
-		write(message[i])
+		print(message[i], end="", flushed=True)
 		i += 1
 	print("\n",end="")
 
-
-# a little demo
+# A demo of it working
 def menu():
 	type("Main Menu\n\n")
 	type("Welcome to the game!\nPlease pick an option!\n")
