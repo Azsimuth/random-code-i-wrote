@@ -1,4 +1,4 @@
-// This game maker language script, written specifically in game maker 8, serves to draw a zigzaging power line of some sorts, inspired by the attack rays of the vortiguants in half-life. The segments aren't implemented, and the drawing is pretty inefficcient too, 
+// This game maker language script, written specifically in game maker 8, serves to draw a zigzaging power line of some sorts, inspired by the attack rays of the vortiguants in half-life. The segmentations aren't implemented, and the drawing is pretty inefficcient too, 
 // there is probably a way to use a loop which would be a million times for flexible, and efficient, however I am yet to find that out.
 
 ///draw_zigzag(x1, y1, x2, y2, colour, dangle)
